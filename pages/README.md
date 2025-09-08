@@ -26,7 +26,7 @@ Somnotate was trained on multiple complete one day recordings using the EEG and 
 
 ## Data overview
 
-**Approved users can download the entire dataset archive here: [Toien_2025.zip](#)**
+**Approved users can download the entire dataset archive here: [Toien_2025.zip](:files_path:/Toien_2025.zip)**
 
 **/Rawdata**
 
