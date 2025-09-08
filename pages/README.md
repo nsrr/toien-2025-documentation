@@ -1,4 +1,4 @@
-**Note: These data are not available for general data requests at this time.**
+**Note: These data are not yet available for general data requests.**
 
 ## About
 
