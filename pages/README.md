@@ -26,11 +26,11 @@ Somnotate was trained on multiple complete one day recordings using the EEG and 
 
 ## Data overview
 
-**Approved users can download the entire dataset archive here: [Toien_2025.zip](:files_path:/Toien_2025.zip)**
+**Approved users can browse and [download the Tøien 2025 dataset here](:files_path:).**
 
 **/Rawdata**
 
-Main folder for polysomnographic recordings for each of 6 bears in EDF/EDF+ compliant format. Each bear is identified by subfolder names with a combination two-digit code for study year (start) and a single digit bear number of that study year. Example: “Bears08_Bear1”. File names ending in .edf contain date of the recording in ISO format and bear number of the study year, and a –one to two letter code as follows: -HH hibernation at high T<sub>b</sub> (peak of a multiday body temperature cycle), -HL hibernation at low T<sub>b</sub> (trough of a T<sub>b</sub> cycle), -N non-hibernating. Example: Bear20120112a-Bear2-HH.edf. All other file names related to individual recordings follow a similar scheme. Channel information is contained in the metadata of each EDF file:
+Main folder for polysomnographic recordings for each of 6 bears in EDF/EDF+ compliant format. Each bear is identified by subfolder names with a combination two-digit code for study year (start) and a single digit bear number of that study year. Example: "Bears08_Bear1". File names ending in .edf contain date of the recording in ISO format and bear number of the study year, and a –one to two letter code as follows: -HH hibernation at high T<sub>b</sub> (peak of a multiday body temperature cycle), -HL hibernation at low T<sub>b</sub> (trough of a T<sub>b</sub> cycle), -N non-hibernating. Example: Bear20120112a-Bear2-HH.edf. All other file names related to individual recordings follow a similar scheme. Channel information is contained in the metadata of each EDF file:
 
 - ECG: Electrocardiogram to measure the electrical activity of the heart - lead 1 position.
 - BP: Intra-aortic blood pressure (not present in Bears07 files).
@@ -50,19 +50,19 @@ Contains subfolders with sleep scores in EDF+ compliant format with file names u
 - Sleep stage W: Wake
 - Unscored: Score could not be determined (Somnivore standard label)
 
-**/AutoScores-Somnivore-EEGEOG**
+**/Sleepscores/AutoScores-Somnivore-EEGEOG**
 
 Somnivore automated scores trained on 100 randomly chosen epochs of each kind from each file to be analyzed, using the EEG and EOG channels.
 
-**/AutoScores-Somnotate-EEGEOG**
+**/Sleepscores/AutoScores-Somnotate-EEGEOG**
 
 Somnotate automated scores in non-holdout mode based on training separately on either all of the hibernation recordings or all summer recordings to be analyzed, using the EEG and EOG channels.
 
-**/ManualScores-Consensus**
+**/Sleepscores/ManualScores-Consensus**
 
 Consensus of the individual manual scores using a voting system.
 
-**/ManualScores-EP**
+**/Sleepscores/ManualScores-EP**
 
 Scores by manual scorer #1.
 
